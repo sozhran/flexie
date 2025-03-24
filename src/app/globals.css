@@ -4,6 +4,7 @@
 	--black: #1e1e1e;
 	--grey: #696969;
 	--blue: #00bfff;
+	--blue-active: #4aa4d0;
 	--red: #ff4500;
 	--yellow: #ffd700;
 	--purple: #8a2be2;
@@ -46,6 +47,7 @@ main {
 	display: flex;
 	gap: 15px;
 	padding: 15px;
+	background-color: var(--black);
 }
 
 .main-controls {
@@ -79,7 +81,7 @@ main {
 }
 
 button {
-	background-color: darkgrey;
+	background-color: var(--blue);
 	border: 1px solid grey;
 	margin: 5px;
 	padding: 5px;
@@ -88,6 +90,7 @@ button {
 }
 
 button:active {
+	background-color: var(--blue-active);
 }
 
 .flexie {
